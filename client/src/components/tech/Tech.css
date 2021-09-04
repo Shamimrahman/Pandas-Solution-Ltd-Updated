@@ -1,0 +1,16 @@
+.Card:hover {
+  transform: scale(1.1);
+  transition: all 0.25s linear;
+}
+
+@media screen and (max-width: 760px) {
+    .img{
+
+      width: 300%;
+      object-fit:contain
+      
+    }
+  
+   
+  }
+  

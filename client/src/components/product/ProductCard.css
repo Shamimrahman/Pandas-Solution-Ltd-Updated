@@ -1,0 +1,35 @@
+.Card:hover {
+  transform: scale(1.1);
+  transition: all 0.25s linear;
+}
+
+.card {
+  border-radius: 30px;
+}
+
+.card-img {
+  border-radius: 25px;
+}
+
+.backdrop {
+  backdrop-filter: blur(20px) saturate(103%);
+  -webkit-backdrop-filter: blur(20px) saturate(103%);
+  background-color: rgba(53, 51, 49, 0.17);
+  border-radius: 20px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.bg {
+  background-image: linear-gradient(
+    to right top,
+    #ffffff,
+    #fff9fd,
+    #fff2f3,
+    #ffede3,
+    #f6ecd5
+  );
+}
+
+.advertise-card {
+  margin-top: -10%;
+}

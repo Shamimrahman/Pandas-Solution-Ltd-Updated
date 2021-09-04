@@ -1,0 +1,24 @@
+.img {
+  width: 220px;
+  margin-top: 8px;
+  margin-left: 50px;
+  margin-right: 20px;
+  object-fit: contain;
+}
+
+.header {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+@media screen and (max-width: 760px) {
+  .img {
+    width: 100px;
+    margin-top: 8px;
+    margin-left: 2px;
+    object-fit: contain;
+  }
+}
