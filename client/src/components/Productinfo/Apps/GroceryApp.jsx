@@ -255,12 +255,14 @@ const GroceryApp = () => {
                 </li>
               </ul>
               <div class="mt-6 rounded-md shadow">
-                <a
-                  href="#"
-                  class="flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-red-500 hover:bg-red-600 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
-                >
-                  Start team plan
-                </a>
+                <Link to="/contact">
+                  <a
+                    href="#"
+                    class="flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-red-500 hover:bg-red-600 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+                  >
+                    Get Demo
+                  </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -36,6 +36,11 @@ import FashionApp from "./components/Productinfo/Apps/FashionApp";
 import Food from "./components/Productinfo/Apps/Food";
 import GroceryApp from "./components/Productinfo/Apps/GroceryApp";
 
+import Restuwebsite from "./components/Productinfo/Web/Restuwebsite";
+import HotelWeb from "./components/Productinfo/Web/HotelWeb";
+import SchoolWeb from "./components/Productinfo/Web/SchoolWeb";
+import AdvertisementWeb from "./components/Productinfo/Web/AdvertisementWeb";
+
 const App = () => {
   return (
     <div>
@@ -71,6 +76,11 @@ const App = () => {
         <Route path="/fashionapp" component={FashionApp}></Route>
         <Route path="/foodapp" component={Food}></Route>
         <Route path="/groceryapp" component={GroceryApp}></Route>
+
+        <Route path="/restuweb" component={Restuwebsite}></Route>
+        <Route path="/hotelweb" component={HotelWeb}></Route>
+        <Route path="/schoolweb" component={SchoolWeb}></Route>
+        <Route path="/advertisementweb" component={AdvertisementWeb}></Route>
       </switch>
 
       <Footer></Footer>

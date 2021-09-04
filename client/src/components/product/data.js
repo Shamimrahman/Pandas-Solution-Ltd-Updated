@@ -117,6 +117,7 @@ const data = [
     price: " $298 / 25,000৳ -",
     description:
       "Pandas have developed responsive website for restaurants with a clean and modern design for the perfect website. ",
+    plink: "/restuweb",
   },
 
   {
@@ -127,6 +128,7 @@ const data = [
     price: " $300 / 25,200৳ -",
     description:
       "A great hotel web design and seamless e-commerce experience can do a lot for the profit margin of any hotel business. ",
+    plink: "/hotelweb",
   },
 
   {
@@ -137,6 +139,7 @@ const data = [
     price: " $416.66 / 35,000৳ - ",
     description:
       "Private schools depend on their websites for enrollment marketing, so pick up some pointers from the Pandas Squads. ",
+    plink: "/schoolweb",
   },
 
   {
@@ -147,6 +150,7 @@ const data = [
     price: "From $298 / 25,000৳ -",
     description:
       " Grow your advertisement agency with pandas. Pandas's developers have developed some amazing add agency website to grow your bussiness. ",
+    plink: "/advertisementweb",
   },
 
   {
