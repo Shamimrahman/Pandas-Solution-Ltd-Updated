@@ -19,8 +19,8 @@ const HotelWeb = () => {
               A great hotel web design and seamless e-commerce experience can do
               a lot for the profit margin of any hotel business.Our experts
               developers have been developing amazing hotel website. We provide
-              web solutions that help restaurant businesses take full advantage
-              of automation and be efficient in their day-to-day activities.
+              web solutions that help hotel businesses take full advantage of
+              automation and be efficient in their day-to-day activities.
             </p>
             <div class="flex justify-center">
               <Link to="/contact">
@@ -44,7 +44,7 @@ const HotelWeb = () => {
       {/**Second Section */}
 
       <div className="flex justify-center items-center" data-aos="flip-down">
-        <div class="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-20">
+        <div class="max-w-md py-4 px-8 bg-white shadow-xl rounded-lg my-20">
           <div class="flex justify-center md:justify-end -mt-16">
             <img
               class="w-20 h-20 object-cover rounded-full border-2 border-indigo-500"
@@ -93,7 +93,7 @@ const HotelWeb = () => {
           </a>
         </div>
         <div class="col-span-12 md:col-span-auto md:col-start-7 md:col-end-13 md:row-start-1 md:row-end-1 -mt-8 md:mt-0 relative z-10 px-4 md:px-0">
-          <div class="p-4 md:p-8 bg-white shadow-lg">
+          <div class="p-4 md:p-8 bg-white shadow-xl">
             <p class="mb-2 text-lg leading-none font-medium">
               <a class="" href="#" title="Heading Link">
                 Backend: <span class="text-red-500">Laravel</span>
@@ -126,7 +126,7 @@ const HotelWeb = () => {
 
           {/** price */}
           <div
-            class="rounded-lg shadow-lg overflow-hidden mb-4 md:ml-60"
+            class="rounded-lg shadow-xl overflow-hidden mb-4 md:ml-60"
             data-aos="zoom-in-right"
           >
             <div class="px-6 py-8 bg-white dark:bg-gray-800 sm:p-10 sm:pb-6">
