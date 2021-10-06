@@ -107,6 +107,9 @@ const Estimate = () => {
             <button class="px-4 py-2 shadow-xl text-gray-100 transition-colors duration-200 transform bg-red-500 rounded-md hover:bg-green-400 focus:outline-none">
             Submit
           </button>
+          <button class="px-4 py-2 shadow-xl text-gray-100 transition-colors duration-200 transform bg-red-500 rounded-md hover:bg-green-400 focus:outline-none">
+          Submit
+        </button>
           </div>
         </div>
       </div>
