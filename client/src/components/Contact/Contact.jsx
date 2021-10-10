@@ -13,10 +13,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_eu532sn",
-        "template_f7b5jad",
+        "service_xtt5gd2",
+        "template_rs5mnyx",
         e.target,
-        "user_Uw0u0GDPt64cadquqey8M"
+        "user_IZ7v9h4jxorY8CvryNnWG"
       )
       .then(
         (result) => {
@@ -101,7 +101,7 @@ const Contact = () => {
               <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
             </svg>
 
-            <span class="mt-2"> pandas@gmail.com</span>
+            <span class="mt-2"> pandasltd@gmail.com</span>
           </a>
         </div>
 
