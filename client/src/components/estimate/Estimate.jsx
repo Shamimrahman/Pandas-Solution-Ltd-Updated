@@ -6,6 +6,10 @@ const Estimate = () => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
+
+  const sendMail = () => {
+    window.alert("Message");
+  };
   return (
     <div>
       <div class="flex  h-screen items-center justify-center mb-30 ">
@@ -34,6 +38,7 @@ const Estimate = () => {
               class="py-2 px-3 shadow-xl border-orange-100 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-orange-100 dark:focus:border-orange-100 focus:outline-none"
               type="text"
               placeholder="Name"
+              name="name"
             />
           </div>
 
@@ -48,6 +53,7 @@ const Estimate = () => {
                 class=" py-2 px-3 shadow-xl border-orange-100 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-orange-100 dark:focus:border-orange-100 focus:outline-none"
                 type="text"
                 placeholder="Email"
+                name="email"
               />
             </div>
             <div class="grid grid-cols-1">
@@ -59,6 +65,7 @@ const Estimate = () => {
                 class="py-2 px-3 shadow-xl  border-orange-100 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-orange-100 dark:focus:border-orange-100 focus:outline-none"
                 type="number"
                 placeholder="Phone"
+                name="phone"
               />
             </div>
           </div>
@@ -67,7 +74,10 @@ const Estimate = () => {
             <label class="uppercase md:text-sm text-xs text-gray-500 text-light font-semibold">
               Service
             </label>
-            <select class="py-2 shadow-xl  border-orange-100 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-orange-100 dark:focus:border-orange-100 focus:outline-none">
+            <select
+              name="service"
+              class="py-2 shadow-xl  border-orange-100 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-orange-100 dark:focus:border-orange-100 focus:outline-none"
+            >
               <option>Apps Development</option>
               <option>Business Data Analytics</option>
               <option>E-Commerce</option>
@@ -89,6 +99,7 @@ const Estimate = () => {
               class="block w-full px-4 py-2 border text-gray-500  shadow-xl   border-orange-100 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-orange-100 dark:focus:border-orange-100 focus:outline-none "
               name="message"
               required
+              name="message"
             ></textarea>
           </div>
 
@@ -98,7 +109,10 @@ const Estimate = () => {
                 Cancel
               </button>
             </Link>
-            <button class="px-4 py-2 shadow-xl text-gray-100 transition-colors duration-200 transform bg-red-500 rounded-md hover:bg-green-400 focus:outline-none">
+            <button
+              onClick={sendMail}
+              class="px-4 py-2 shadow-xl text-gray-100 transition-colors duration-200 transform bg-red-500 rounded-md hover:bg-green-400 focus:outline-none"
+            >
               Submit
             </button>
           </div>
