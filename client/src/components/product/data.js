@@ -1,8 +1,7 @@
 const data = [
   {
     id: 1,
-    image:
-      "https://cdn.dribbble.com/users/5094323/screenshots/11184058/media/21d762e9bf83e02db2e7c2fab41320e1.gif",
+    image: "./software/erp.gif",
     name: "Enterprise Resource Planning",
     category: "software",
     price: " $1774 / 1,50,000৳ -",
@@ -12,8 +11,8 @@ const data = [
   },
   {
     id: 2,
-    image:
-      "https://a.fsdn.com/con/app/proj/litmos-lms.s/screenshots/LitmosLMS-HomePage.PNG/max/max/1",
+    image: "./software/Lms.png",
+
     name: "Learning Management System",
     category: "software",
     price: "$1656 / 1,40,000৳ -",
@@ -24,8 +23,7 @@ const data = [
 
   {
     id: 3,
-    image:
-      "https://i.pinimg.com/originals/ee/9f/fc/ee9ffc328170b10a2e7aa2ff8384e211.gif",
+    image: "./software/ems1.gif",
     name: "Employee Monitoring Software",
     category: "software",
     price: " $1656 / 1,40,000৳ -",
@@ -36,8 +34,7 @@ const data = [
 
   {
     id: 4,
-    image:
-      "https://i.pinimg.com/originals/da/f5/56/daf556ceaa38aea896130652b8c032a7.gif",
+    image: "./software/pos.gif",
     name: "Pos Software with Barcode Machine",
     category: "software",
     price: " $472 / 40,000৳-",
@@ -47,8 +44,7 @@ const data = [
   },
   {
     id: 5,
-    image:
-      "https://i.pinimg.com/originals/e6/0f/13/e60f13a40abbc03b8a6a06518e68088d.gif",
+    image: "./software/fashion.gif",
     name: "Fashion Ecommerce Site",
     category: "ecommerce",
     price: "  $358 / 30,000৳ - ",
