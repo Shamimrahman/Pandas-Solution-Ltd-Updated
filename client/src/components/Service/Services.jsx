@@ -61,7 +61,7 @@ const Services = () => {
         <img
           class="lg:w-10/12 md:w-10/12 w:10/18 md:ml-20 lg:ml-20 ml-2 "
           alt="process"
-          src="https://images.squarespace-cdn.com/content/v1/5d48ece5c9b54700015ba784/1603676341616-8KFT7L4Y1KVA867JW5OK/Boston+Grocery+Delivery+App+UI+Kit-web-15.gif"
+          src="./service/grocery.gif"
         />
       </div>
     </div>

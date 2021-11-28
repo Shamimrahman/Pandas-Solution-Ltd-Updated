@@ -26,6 +26,7 @@ import Contact from "./components/Contact/Contact";
 import Navbartwo from "./components/navbar/Navbartwo";
 import Footer from "./components/Footer/Footer";
 import Estimate from "./components/estimate/Estimate";
+import Career from "./components/Career/Career";
 
 import ERP from "./components/Productinfo/software/ERP";
 import LMS from "./components/Productinfo/software/LMS";
@@ -55,6 +56,7 @@ const App = () => {
         <Route path="/industries" component={Industry}></Route>
         <Route path="/contact" component={Contact}></Route>
         <Route path="/estimate" component={Estimate}></Route>
+        <Route path="/career" component={Career}></Route>
 
         <Route path="/fashion" component={Fashion}></Route>
         <Route path="/restaurant" component={Restaurant}></Route>

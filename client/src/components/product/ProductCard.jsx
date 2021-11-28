@@ -23,7 +23,7 @@ const ProductCard = ({ image, name, description, price, plink }) => {
           <div className="flex justify-center items-center">
             <Link to={plink}>
               <button class="backdrop  bg-opacity-0 border border-white px-3 py-1.5 rounded focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-40 hover:bg-opacity-10 text-lg">
-                Request For Demo
+                View Product
               </button>
             </Link>
           </div>

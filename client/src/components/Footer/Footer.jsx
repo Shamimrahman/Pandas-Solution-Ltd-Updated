@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -7,56 +8,59 @@ const Footer = () => {
         <div class="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 ">
           <nav class="flex flex-wrap justify-center -mx-5 -my-2">
             <div class="px-5 py-2">
-              <a
-                href="#"
+              <Link
+                to="/"
                 class="text-base leading-6 text-gray-800 hover:text-gray-900"
               >
                 About
-              </a>
+              </Link>
             </div>
             <div class="px-5 py-2">
-              <a
-                href="#"
+              <Link
+                to="/products"
                 class="text-base leading-6 text-gray-800 hover:text-gray-900"
               >
-                Blog
-              </a>
+                Product
+              </Link>
             </div>
             <div class="px-5 py-2">
-              <a
-                href="#"
+              <Link
+                to="/industries"
                 class="text-base leading-6 text-gray-800 hover:text-gray-900"
               >
-                Team
-              </a>
+                Industries
+              </Link>
             </div>
             <div class="px-5 py-2">
-              <a
-                href="#"
+              <Link
+                to="/career"
                 class="text-base leading-6 text-gray-800 hover:text-gray-900"
               >
-                Pricing
-              </a>
+                Career
+              </Link>
             </div>
             <div class="px-5 py-2">
-              <a
-                href="#"
+              <Link
+                to="/contact"
                 class="text-base leading-6 text-gray-800 hover:text-gray-900"
               >
                 Contact
-              </a>
+              </Link>
             </div>
             <div class="px-5 py-2">
-              <a
-                href="#"
-                class="text-base leading-6 text-gray-800hover:text-gray-900"
+              <Link
+                to="/estimate"
+                class="text-base leading-6 text-gray-800 hover:text-gray-900"
               >
                 Terms
-              </a>
+              </Link>
             </div>
           </nav>
           <div class="flex justify-center mt-8 space-x-6">
-            <a href="#" class="text-gray-400 hover:text-gray-500">
+            <a
+              href="https://www.facebook.com/pandasSquads"
+              class="text-gray-400 hover:text-gray-500"
+            >
               <span class="sr-only">Facebook</span>
               <svg
                 class="w-6 h-6"
