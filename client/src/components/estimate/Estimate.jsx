@@ -14,8 +14,8 @@ const Estimate = () => {
 
     emailjs
       .sendForm(
-        "service_w3f1ogy",
-        "template_o3yp5oi",
+        "service_6dfoj4n",
+        "template_odibhlk",
         e.target,
         "user_IZ7v9h4jxorY8CvryNnWG"
       )
@@ -74,8 +74,7 @@ const Estimate = () => {
                 </label>
                 <input
                   required
-                  class
-                  class=" py-2 px-3 shadow-xl border-orange-100 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-orange-100 dark:focus:border-orange-100 focus:outline-none"
+                  className=" py-2 px-3 shadow-xl border-orange-100 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-orange-100 dark:focus:border-orange-100 focus:outline-none"
                   type="text"
                   placeholder="Email"
                   name="email"
@@ -125,7 +124,6 @@ const Estimate = () => {
                 class="block w-full px-4 py-2 border text-gray-500  shadow-xl   border-orange-100 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-orange-100 dark:focus:border-orange-100 focus:outline-none "
                 name="message"
                 required
-                name="message"
               ></textarea>
             </div>
 

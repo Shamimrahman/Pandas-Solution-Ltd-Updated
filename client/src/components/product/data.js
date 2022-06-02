@@ -6,7 +6,8 @@ const data = [
     category: "software",
     price: " $1774 / 1,50,000৳ -",
     description:
-      " ERP is a organizational software use to manage day-to-day business activities such as accounting, procurement, project management, risk management and compliance. ",
+      "Enterprise resource planning (ERP) manages and integrates business processes through a single system.",
+
     plink: "/erp",
   },
   {
@@ -17,7 +18,7 @@ const data = [
     category: "software",
     price: "$1656 / 1,40,000৳ -",
     description:
-      " LMS  is a software application for the administration, documentation, tracking, reporting, automation and delivery of educational courses, training programs, or learning and development programs. ",
+      " LMS  is the learning management system concept emerged directly from e-Learning.",
     plink: "/lms",
   },
 

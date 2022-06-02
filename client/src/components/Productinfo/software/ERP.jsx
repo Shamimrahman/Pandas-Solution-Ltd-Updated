@@ -14,7 +14,7 @@ const ERP = () => {
             <h1 class="font-light w-full uppercase text-center text-4xl sm:text-5xl dark:text-white text-gray-800">
               Enterprise resource planning (ERP)
             </h1>
-            <h2 class=" sm:text-justify font-light max-w-2xl mx-auto w-full text-xl dark:text-white text-gray-500 md:text-center py-8">
+            <h2 class=" sm:text-justify font-light max-w-2xl mx-auto w-full text-xl dark:text-white text-black-800 md:text-center py-8">
               ERP is the software that helps you manage your business.
               Enterprise resource planning is the integrated management of main
               business processes, often in real time and mediated by software

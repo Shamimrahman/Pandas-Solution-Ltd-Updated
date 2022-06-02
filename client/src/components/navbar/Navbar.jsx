@@ -14,11 +14,7 @@ const Navbar = () => {
         <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
           <Link to="/">
             {" "}
-            <img
-              className="img"
-              src="./img/pandanew.svg"
-              className="img w-full"
-            ></img>
+            <img className="img w-full" src="./img/pandanew.svg"></img>
           </Link>
         </a>
         <nav class="md:ml-10 ml-5 md:mr-auto flex flex-wrap items-center text-base justify-center">

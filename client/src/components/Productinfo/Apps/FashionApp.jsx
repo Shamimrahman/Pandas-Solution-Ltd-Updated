@@ -22,7 +22,7 @@ const FashionApp = () => {
               their day-to-day activities.
             </p>
             <div class="flex items-center justify-center mt-4">
-              <Link to="/contact">
+              <Link to="/estimate">
                 {" "}
                 <button className=" btn  hover:bg-red-500  transition duration-500 ease-in-out transform border-red-500 rounded-md items-centerw-full focus:shadow-outline focus:outline-none focus:ring-1 ring-offset-current ring-offset-2">
                   Get Demo
